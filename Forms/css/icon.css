@@ -1,0 +1,12 @@
+@font-face {
+    font-family: icon;
+    src: url("../icons/fa-solid-900.woff2");
+    font-weight: bold;
+}
+.icon{
+    font-family: icon;
+    font-size: 1.1rem;
+}
+.icon-search::before{
+    content: "\f002";
+}

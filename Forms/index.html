@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>radman</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <style>
+        .form-control:focus {
+            box-shadow: none;
+        }
+        .input-group-text{
+            background-color: rgba(33, 129, 255, 0.11);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>bootstrap-forms</h1>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="from-label">number:</label>
+                    <div class="input-group">
+                        <span class="input-group-text">+98</span>
+                        <input type="text" name="number:" id="name" class="form-control" placeholder="912 345 6789">
+                    </div>
+            </div>
+        </form>
+        <hr>
+        <form class="was-validated">
+            <div class="mb-3">
+                <label for="name" class="from-label">Name:</label>
+                <input type="text" name="name" id="name" class="form-control" minlength="3" required>
+                <div class="invalid-feedback">Enter at least <b>3</b> characters.</div>
+                <div class="valid-feedback">acceptable.</div>
+            </div>
+        </form>
+        <hr>
+            <div class="mb-3">
+                <label for="name" class="from-label"></label>
+                    <div class="input-group">
+                        <input type="text" name="number:" id="name" class="form-control">
+                        <span class="input-group-text"><span class="icon icon-search"></span></span>
+                    </div>
+            </div>
+            <hr>
+        <div class="mb-3">    
+            <form class="form-floating">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+                <label for="name">Name:</label>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
